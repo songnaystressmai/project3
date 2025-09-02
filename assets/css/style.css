@@ -51,7 +51,7 @@ body {
   font-size: 1.8rem;
   /* font-style: normal; */
   font-weight: 300;
-  margin-top: 18px;
+  /* margin-top: 18px; */
   line-height: 1.67; /* 166.667% */
 }
 a {
@@ -190,7 +190,7 @@ a {
 }
 .service__desc {
   width: 468px;
-  margin: 0 auto;
+  margin: 18px auto 0;
 }
 .service__row {
   display: flex;
