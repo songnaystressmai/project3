@@ -123,15 +123,146 @@
     width: 90%;
     text-align: center;
   }
+  .team__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+  .team-item__thumb {
+    margin: 0 auto;
+  }
+  .install__img {
+    display: none;
+  }
+  .install__content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .blog__inner {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .blog__list {
+    order: 1;
+  }
+  .blog__content {
+    order: 2;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog__heading {
+    max-width: 90%;
+  }
 }
 /* tablet */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .footer-hidden {
+    display: none;
+  }
+  .footer__top {
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+  }
+  .show-on-mobile {
+    display: none;
+  }
 }
 
 /* mobile */
 @media (max-width: 767.98px) {
-}
-/* hideen */
-.footer {
-  display: none;
+  .header__action {
+    display: none;
+  }
+  .menu-header__icon {
+    top: 16px;
+  }
+  .menu-drawer {
+    padding: 40px;
+    inset: 0 20% 0 0;
+  }
+  .navbar__item {
+    list-style-type: none;
+  }
+  .separate {
+    border-top: 1.5px solid #8c8b8b;
+    margin-top: 10px;
+  }
+  .hero__img--small {
+    display: none;
+  }
+  .hero__img--large {
+    width: 100%;
+    height: auto;
+  }
+  .hero__heading {
+    font-size: 3rem;
+  }
+  .hero__desc {
+    font-size: 1.5rem;
+  }
+  .hero__row {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .service {
+    padding: 70px 0;
+  }
+  .section-desc {
+    width: 90%;
+  }
+  .service__img {
+    height: auto;
+    /* width: 80%; */
+    /* left: 30px; */
+  }
+  .work__desc {
+    width: 100%;
+  }
+  .section-heading {
+    font-size: 3rem;
+  }
+  .work-item {
+    padding: 20px;
+  }
+  .about {
+    margin: 20px;
+    padding: 40px 0;
+  }
+  .section-desc {
+    /* text-align: center; */
+    margin: 10px auto;
+    width: 100%;
+  }
+  .team__list {
+    grid-template-columns: 1fr;
+  }
+  .install__inner {
+    margin: 40px 0;
+    padding: 0 8px;
+  }
+  .install__content {
+    min-width: 250px;
+  }
+  .install__desc {
+    font-size: 1.3rem;
+  }
+  .blog__list {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    /* order: 2; */
+  }
+  .blog__heading {
+    /* max-width: 90%; */
+    text-align: center;
+  }
+  .appointment__inner {
+    padding: 30px 5px;
+  }
+  .footer__top {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  .footer__copyright {
+    margin-top: 20px;
+  }
 }
