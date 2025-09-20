@@ -595,12 +595,12 @@ a {
 }
 .appointment__heading::after {
   content: "";
-  display: inline-block;
+  display: block;
   width: 136px;
   height: 2px;
   /* flex-shrink: 0; */
   background: #2e80ce;
-  margin-top: 18px auto 0;
+  margin: 18px auto 0;
 }
 .appointment__desc {
   /* margin-top: 18px; */
